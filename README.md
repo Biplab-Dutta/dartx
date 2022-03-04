@@ -95,7 +95,7 @@ the predicate _didn't_ match.
 
 ## int
 
-### .ordinal
+### .ordinal()
 
 Returns an ordinal number of `String` type for any integer
 
@@ -106,7 +106,7 @@ final b = 108.ordinal();  // 108th
 
 ## String
 
-### .capitalize
+### .capitalize()
 
 Returns a copy of the string having its first letter uppercased, or the original string, if it's empty or already starts with an upper case letter.
 
@@ -115,7 +115,7 @@ final word = 'abcd'.capitalize(); // Abcd
 final anotherWord = 'Abcd'.capitalize(); // Abcd
 ```
 
-### .decapitalize
+### .decapitalize()
 
 Returns a copy of the string having its first letter lowercased, or the original string, if it's empty or already starts with a lower case letter.
 
@@ -350,7 +350,7 @@ Converts this value to binary form.
 
 ## range
 
-### rangeTo
+### rangeTo()
 
 Creates a range between two ints (upwards, downwards and with custom steps)
 
